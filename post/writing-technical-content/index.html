@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: 24 april 2023 --><html lang="nl" >
+<!-- Last Published: 25 april 2023 --><html lang="nl" >
 
 
 <head>
@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.e215ebb3c14569340c4e3a6ecf67f927.css" />
+  <link rel="stylesheet" href="/css/wowchemy.b2dae1cd4a6e9b69f3c075b03d6d8993.css" />
 
   
   
@@ -232,8 +232,8 @@
   
     
     
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -423,7 +423,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="07e02bccc368a192a0c76c44918396c3" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="07e02bccc368a192a0c76c44918396c3" >
 
   
   
@@ -434,7 +434,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   
   
-  <script src="/js/wowchemy-init.min.2a7b4dc7d7846171b6299e17e1f3ac71.js"></script>
+  <script src="/js/wowchemy-init.min.7ef7066f585831c88e75e22563a67f27.js"></script>
 
   
 
@@ -501,6 +501,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     <div class="container-xl">
 
       
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"></a>
+      </div>
+      
 
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -509,6 +513,10 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       </button>
       
 
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"></a>
+      </div>
       
 
       
@@ -672,6 +680,8 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
           
           
           
+            
+          
 
           
 
@@ -696,7 +706,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#faq"><span>FAQ</span></a>
+            <a class="nav-link " href="/#contact"><span>FAQ</span></a>
           </li>
 
           
@@ -725,13 +735,26 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
         
         
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
 
         
         
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
         
 
         
@@ -942,7 +965,7 @@ data.head()
 
 
 
-<div id="chart-857294631" class="chart"></div>
+<div id="chart-637189542" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -952,7 +975,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-857294631', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-637189542', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
